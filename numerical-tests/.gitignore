@@ -1,0 +1,27 @@
+# Generated research output; the root .gitignore is shared with swe-public.
+results/
+results-*/
+figures/
+raw/
+raw-*/
+analysis/
+logs/
+*.npy
+*.npz
+*.csv
+*.csv.gz
+*.json
+*.pdf
+*.png
+*.out
+*.err
+*.sb
+slurm-*
+
+# Required production input metadata; other generated JSON remains excluded.
+!openfoam/radial-collapse-initial-shear/water_collapse_shear_N200/case_settings.json
+!openfoam/radial-collapse-initial-shear/water_collapse_shear_N400/case_settings.json
+!openfoam/radial-collapse-initial-shear/water_collapse_shear_N800/case_settings.json
+
+# Generated OpenFOAM meshes at any case depth.
+**/constant/polyMesh/

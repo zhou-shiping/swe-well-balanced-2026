@@ -1,0 +1,12 @@
+FoamFile
+{
+    format ascii;
+    class dictionary;
+    location "constant";
+    object physicalProperties.air;
+}
+
+viscosityModel constant;
+nu 1.48e-5;
+rho 1;
+

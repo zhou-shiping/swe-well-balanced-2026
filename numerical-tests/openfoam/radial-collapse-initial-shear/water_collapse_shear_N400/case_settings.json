@@ -1,0 +1,56 @@
+{
+  "created": "2026-09-09",
+  "status": "prepared; not run",
+  "mesh_cells_openfoam_xyz": [
+    400,
+    400,
+    400
+  ],
+  "domain_m": [
+    100.0,
+    2.0,
+    100.0
+  ],
+  "center_m": 50.0,
+  "dam_radius_m": 15.0,
+  "inner_depth_m": 1.5,
+  "outer_depth_m": 1.0,
+  "shear_radius_m": 12.0,
+  "peak_mean_speed_m_s": 0.4,
+  "cosine_amplitudes": [
+    0.3,
+    0.2
+  ],
+  "gravity_m_s2": 9.81,
+  "rho_water": 1000.0,
+  "rho_air": 1.0,
+  "nu_water_m2_s": 1e-06,
+  "nu_air_m2_s": 1.48e-05,
+  "surface_tension_n_m": 0.07,
+  "max_co": 0.25,
+  "max_alpha_co": 0.25,
+  "write_precision": 12,
+  "initial_dt_s": 0.001,
+  "end_time_s": 3.0,
+  "write_interval_s": 0.5,
+  "mpi_ranks": 32,
+  "smoke_only": false,
+  "input_sha256": {
+    "0/U": "5e28565985cf3ea4a1639858e3b59097d02a9a5a4b8748e50919c1232ab46272",
+    "0/alpha.water": "51a66c645c92e22ed4276311f67f8a27085a21dedbc56cde90d7799cbdd35111",
+    "0/p_rgh": "bfc3a8aa5f47dda181042973f6cf9b7776fa7988fe83b6ed6ab0cbd4e0d3c646",
+    "Allrun": "bcfb9852d9a39a4783adf68f8b2817da199a8dab2d6554c2b379f6e79996893b",
+    "constant/fvModels": "712bb88a3426d31e7e4559682a9a6bb4d96a684cd1daae9d072a3688238cf388",
+    "constant/g": "55d96eaf3bbe13a34b8b3a65024b28fe9b6cc63d58bf164748700a70b155709b",
+    "constant/momentumTransport": "7b6f11a01f07ff6dd0abcc164fc38691fab0cea2dab3561a757f3cc7daa266cc",
+    "constant/phaseProperties": "138563318afc80777cce66d4fe42665c844a44a0c75d42ec1e9fddac980ddb3c",
+    "constant/physicalProperties.air": "41a19168efd35222948499ae50e042deb9a69b50e7f76ff1f70cd15581e5b24d",
+    "constant/physicalProperties.water": "2f1788dd127a9dd4c35f768acb3a5e71e299ec63f151c1bc8e1944ddcd9a5940",
+    "system/blockMeshDict": "393af8218f0c41ec8da34d548539f011c76c3826c1dfbad9f389165a74620ec7",
+    "system/controlDict": "7aa137627acd7ac7b50cf468445f80021a698bc87ad16328fb46c7620b2dc172",
+    "system/decomposeParDict": "ae481f01ba472dde8508c963844d6a349294579eb72387ce4bda95583667b4fe",
+    "system/fvSchemes": "da08f363300f33979f16603054662ccf418b1ce379cecb15efffe808e3e8a581",
+    "system/fvSolution": "43f2a860f6968dbe6402ca965789c3fa8f786c366e463db312ea113dbde81859"
+  },
+  "problem_sha256": "366b8811c018914c946c80fe142f2f8958babbd9415c41b9460a4e93a37f2c12"
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")" || exit 1
+. "${WM_PROJECT_DIR:?Source the OpenFOAM environment first}/bin/tools/RunFunctions"
+# Run from a prepared case beside initialize_fields.py.
+test -f case_settings.json
+test ! -e initialization.json
+runApplication blockMesh
+runApplication checkMesh
+"${PYTHON:-python3}" ../initialize_fields.py .
+runApplication foamRun

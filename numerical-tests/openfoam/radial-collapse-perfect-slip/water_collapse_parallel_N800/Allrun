@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")" || exit 1
+. "${WM_PROJECT_DIR:?Source the OpenFOAM environment first}/bin/tools/RunFunctions"
+
+for template in 0/*.orig; do
+    [ -f "$template" ] || continue
+    cp "$template" "${template%.orig}"
+done
+runApplication blockMesh
+runApplication setFields
+runApplication $(getApplication)

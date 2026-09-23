@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the archived software release and the associated manuscript. The software DOI is pending."
+type: software
+title: "Two-Dimensional Shallow Water Linearized Moment Equations: Hyperbolicity and Well-Balanced Schemes"
+authors:
+  - family-names: Zhou
+    given-names: Shiping
+  - family-names: Huang
+    given-names: Juntao
+  - family-names: Christlieb
+    given-names: Andrew J.
+license: MIT
+repository-code: "https://github.com/zhou-shiping/swe-well-balanced-2026"
+keywords:
+  - shallow water moment equations
+  - hyperbolicity
+  - well-balanced finite-volume schemes
