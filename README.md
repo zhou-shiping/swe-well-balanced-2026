@@ -2,10 +2,9 @@
 
 Data-generation source code for **Two-Dimensional Shallow Water Linearized Moment Equations: Hyperbolicity and Well-Balanced Schemes**, by Shiping Zhou, Juntao Huang, and Andrew J. Christlieb.
 
-Prepared for independent release: **2026-09-23**.
-Repository-relative path: `.`.
-Intended repository: [swe-well-balanced-2026](https://github.com/zhou-shiping/swe-well-balanced-2026).
-This repository is prepared locally for review; public GitHub publication, a versioned release, and a Zenodo DOI are pending.
+- **Paper:** [arXiv:2609.28800](https://doi.org/10.48550/arXiv.2609.28800) (2026).
+- **Archived software:** [Zenodo, release v1.0](https://doi.org/10.5281/zenodo.22925453) (2026-09-23).
+- **GitHub repository:** [swe-well-balanced-2026](https://github.com/zhou-shiping/swe-well-balanced-2026).
 
 ## Scope and manuscript mapping
 
@@ -84,11 +83,13 @@ OpenFOAM solver execution and full production simulations were not rerun; these 
 
 ## Citation and archival release
 
+Please cite both the paper and the archived software release when using this code:
+
+- Shiping Zhou, Juntao Huang, and Andrew J. Christlieb. *Two-Dimensional Shallow Water Linearized Moment Equations: Hyperbolicity and Well-Balanced Schemes*. arXiv preprint, 2026. [doi:10.48550/arXiv.2609.28800](https://doi.org/10.48550/arXiv.2609.28800).
+- Shiping Zhou, Juntao Huang, and Andrew J. Christlieb. *Two-Dimensional Shallow Water Linearized Moment Equations: Hyperbolicity and Well-Balanced Schemes*. Software release v1.0, Zenodo, 2026. [doi:10.5281/zenodo.22925453](https://doi.org/10.5281/zenodo.22925453).
+
+The software DOI identifies the archived v1.0 source snapshot; the GitHub repository may contain later updates.
 Author and software metadata are provided in [CITATION.cff](CITATION.cff).
-A software DOI has not yet been assigned.
-After review, publish the GitHub repository, connect it to Zenodo, and create a versioned release matching the manuscript.
-Record the resulting version-specific DOI and release identifier here and in the manuscript before submission.
-The software archive associated with the authors' earlier paper belongs to that earlier work and should not be used as this repository's DOI.
 
 ## License
 
